@@ -1,0 +1,46 @@
+# ── Node ──────────────────────────────────────────────────────
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ── Vite / Build ──────────────────────────────────────────────
+client/dist/
+client/dist-electron/
+client/.vite/
+
+# ── Electron builder ──────────────────────────────────────────
+client/release/
+*.dmg
+*.exe
+*.AppImage
+*.deb
+*.snap
+
+# ── Go ────────────────────────────────────────────────────────
+server/relay-server
+server/*.exe
+
+# ── Env files ─────────────────────────────────────────────────
+.env
+.env.local
+.env.*.local
+client/.env.local
+
+# ── Docker ────────────────────────────────────────────────────
+.docker/
+
+# ── OS ────────────────────────────────────────────────────────
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+desktop.ini
+
+# ── IDE ───────────────────────────────────────────────────────
+.idea/
+.vscode/
+*.swp
+*.swo
