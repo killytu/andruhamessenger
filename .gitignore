@@ -1,0 +1,42 @@
+# ── Node ──────────────────────────────────────────────────────
+node_modules/
+npm-debug.log*
+
+# ── Build ─────────────────────────────────────────────────────
+client/dist/
+client/dist-electron/
+client/.vite/
+client/release/
+
+# ── Electron dist ─────────────────────────────────────────────
+*.dmg
+*.exe
+*.AppImage
+*.deb
+
+# ── Go ────────────────────────────────────────────────────────
+server/andruha-relay
+server/andruha-relay.exe
+server/relay-server
+server/relay-server.exe
+
+# ── Database (пользовательские данные) ───────────────────────
+server/data/
+*.json.tmp
+
+# ── Env ───────────────────────────────────────────────────────
+.env
+.env.local
+.env.*.local
+
+# ── OS ────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+._*
+
+# ── IDE ───────────────────────────────────────────────────────
+.idea/
+.vscode/
+*.swp
+*.swo
