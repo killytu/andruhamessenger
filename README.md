@@ -354,19 +354,6 @@ GET /health                     → статус сервера
 
 ---
 
-## Первый push на GitHub
-
-```bash
-# 1. Создать репозиторий на github.com (без README)
-# 2. В папке проекта:
-git init
-git add .
-git commit -m "feat: ANDRUHA MESSENGER v1.0 — E2EE + P2P + Double Ratchet"
-git remote add origin https://github.com/YOUR_USERNAME/andruha-messenger.git
-git branch -M main
-git push -u origin main
-```
-
 ---
 
 ## Что сервер хранит / не хранит
